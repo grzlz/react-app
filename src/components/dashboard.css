@@ -4,10 +4,14 @@ body {
     background: black;
     color: white;   
     font-family: 'Nunito', sans-serif;
+    margin: 0px;
 }
 
 .widgetWrap {
     background: #2a2a2a;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .widgetTitle {
@@ -33,4 +37,25 @@ body {
     text-align: left;
     font-size: 15px;
     padding-left: 13px;
+}
+
+.mainDashboard {
+    margin: 30px;
+}
+
+.TopHeader.row {
+    background: #2a2a2a;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.Dropdown-root {
+    margin-left: 1000px;
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
